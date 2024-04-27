@@ -12,7 +12,7 @@ import numpy as np
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
-root_path = '/home/OKy/PS_management/'
+root_path = '/home/OKy/almondiga/'
 
 # Enruta la landing page (endpoint /)
 @app.route("/", methods = ['GET'])
